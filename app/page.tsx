@@ -88,40 +88,11 @@ export default function Home() {
               <button className="btn btnPrimary">Get Started</button>
               <button className="btn btnGhost">View Demo</button>
             </div>
-            <div className="socialProof">
-              <div className="avatars">
-                <span className="avatar">
-                  <Image
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=facearea&w=80&h=80&q=80"
-                    alt="Team member"
-                    width={28}
-                    height={28}
-                  />
-                </span>
-                <span className="avatar">
-                  <Image
-                    src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=facearea&w=80&h=80&q=80"
-                    alt="Team member"
-                    width={28}
-                    height={28}
-                  />
-                </span>
-                <span className="avatar">
-                  <Image
-                    src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=facearea&w=80&h=80&q=80"
-                    alt="Team member"
-                    width={28}
-                    height={28}
-                  />
-                </span>
-              </div>
-              <span>Trusted by 300+ engineers across teams</span>
-            </div>
           </div>
           <div className="heroImageWrap">
             <Image
-              src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
-              alt="City-like data visualization"
+              src="https://images.pexels.com/photos/4816921/pexels-photo-4816921.jpeg"
+              alt="Team working with hardware"
               width={640}
               height={420}
               className="heroImage"
@@ -149,26 +120,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <aside className="quoteCard">
-            <div className="quoteHeader">
-              <span className="quoteAvatar">
-                <Image
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=facearea&w=90&h=90&q=80"
-                  alt="R. Saha"
-                  width={36}
-                  height={36}
-                />
-              </span>
-              <div>
-                <strong>R. Saha</strong>
-                <span>Engineering Lead</span>
-              </div>
-            </div>
-            <p>
-              “PRISM changed how we handle code reviews. It flags risky and most
-              senior architecture work in every single commit.”
-            </p>
-          </aside>
+          <div />
         </section>
 
         <section className="section centered">
@@ -221,7 +173,7 @@ export default function Home() {
               <button className="btn btnPrimary">Read Full Setup Guide</button>
             </div>
             <pre>
-              <code>{`pip install prism-semantic\nprism init\nprism analyze --from=main\nprism dashboard --port=7840`}</code>
+              <code>{`prism analyze <pr-id>\nprism analyze <pr-id> --repo <repo-url>\nprism demo`}</code>
             </pre>
           </div>
         </section>

@@ -84,15 +84,15 @@ a {
 .nav {
   display: flex;
   gap: 18px;
-  font-size: 11px;
+  font-size: 13px;
   color: #606179;
 }
 
 .btn {
   border-radius: 8px;
   border: 1px solid transparent;
-  font-size: 11px;
-  padding: 8px 14px;
+  font-size: 13px;
+  padding: 10px 18px;
   cursor: pointer;
   font-weight: 600;
 }
@@ -541,6 +541,17 @@ code {
   max-width: 620px;
   margin: 10px auto 0;
   color: #ece8ff;
+}
+
+.cta .heroActions {
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.cta .btn {
+  font-size: 12px;
+  padding: 10px 18px;
+  border-radius: 10px;
 }
 
 .btnLight {

@@ -32,16 +32,18 @@ a {
 }
 
 .page {
-  padding: 16px;
+  padding: 0;
   background: radial-gradient(circle at top, #ffffff, #f6f4ff 65%, #efeefe);
+  min-height: 100vh;
 }
 
 .container {
-  max-width: 1000px;
-  margin: 0 auto;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  box-shadow: 0 20px 50px rgba(39, 44, 86, 0.08);
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
 
 .section {
